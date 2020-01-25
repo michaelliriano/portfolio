@@ -343,7 +343,48 @@ class Projects extends Component {
               </Button>
               <Button style={{ color: '#FF00DD' }} colored>
                 <a
-                  href='http://vigoalaw.herokuapp.com/'
+                  href='http://vigoalaw.net'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Site
+                </a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+          <Card
+            className='card-border'
+            shadow={5}
+            style={{ minWidth: '450', margin: 'auto' }}
+          >
+            <CardTitle
+              style={{
+                color: 'white',
+                height: '176px'
+              }}
+              className='card-photo-nine'
+            ></CardTitle>
+            <CardText>
+              Freelance Marketing Portfolio site built for a client. Mobile
+              first approach, pure HTML, CSS, and Javascript. No frameworks.
+              Deployed to Netlify
+            </CardText>
+            <CardActions border>
+              <Button style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='https://github.com/michaelliriano/ravynportfolio'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Code
+                </a>
+              </Button>
+              <Button style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='https://www.ravynsullivan.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >

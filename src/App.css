@@ -378,6 +378,11 @@ a .fas {
   height: 200px;
   width: 100%;
 }
+.card-photo-nine {
+  background: url(./images/ravyn.jpg);
+  height: 200px;
+  width: 100%;
+}
 .contact-container h3 {
   color: white;
 }
