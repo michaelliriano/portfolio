@@ -15,12 +15,10 @@ ReactDOM.render(
 
 // Pseudo Element Error on Safari
 function smokeEffect() {
-  var isChrome =
+  const isChrome =
     /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  let isFirefox = navigator.userAgent.search('Firefox');
 
-  if (!isChrome && !isFirefox) {
-    console.log('not chrome');
+  if (!isChrome) {
     let landingPage = document.getElementById('homepage');
     landingPage.classList.remove('homepage');
   }
