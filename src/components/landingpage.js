@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class Landing extends Component {
   render() {
     return (
-      <section id='homepage' className=''>
+      <section id='homepage' className='homepage'>
         <div id='video'>
           <video
             id='smoke'

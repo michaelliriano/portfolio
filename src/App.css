@@ -382,6 +382,11 @@ a .fas {
   height: 200px;
   width: 100%;
 }
+.card-photo-ten {
+  background: url(./images/bayshore.jpg);
+  height: 200px;
+  width: 100%;
+}
 .contact-container h3 {
   color: white;
 }

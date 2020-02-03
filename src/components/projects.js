@@ -129,8 +129,7 @@ class Projects extends Component {
               Web application using Node.js backend, Express server, MongoDB
               database. Basic REST API, OOP approach, MVC Layout, EJS Templates.
               Users can create an account, track calories, set weight loss
-              goals, and blog their journey. Demo deployed to Heroku. CURRENTLY
-              IN PRODUCTION
+              goals, and blog their journey. Demo deployed to Heroku.
             </CardText>
             <CardActions border>
               <Button src='/' style={{ color: '#FF00DD' }} colored>
@@ -326,12 +325,56 @@ class Projects extends Component {
                 color: 'white',
                 height: '176px'
               }}
+              className='card-photo-ten'
+            ></CardTitle>
+            <CardText>
+              Freelance website for a local import/export produce company.
+              Client was looking to upgrade from their wix site to something
+              more professional and clean. Completely designed the UI and UX.
+              Built with HTML,CSS with animations, and javascript.
+            </CardText>
+            <CardActions border>
+              <Button style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='https://www.bayshoreproduce.net'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Site
+                </a>
+              </Button>
+              <Button style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='https://github.com/michaelliriano/bayshoreproduce'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Code
+                </a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+          <Card
+            className='card-border'
+            shadow={5}
+            style={{ minWidth: '450', margin: 'auto' }}
+          >
+            <CardTitle
+              style={{
+                color: 'white',
+                height: '176px'
+              }}
               className='card-photo-eight'
             ></CardTitle>
             <CardText>
               Website for Client's Real Estate Law business. Using React for the
               frontend, and express server for backend. Client had personal
-              input on design scheme. Deployed to heroku.
+              input on design scheme. Was able to work with client to satisfy
+              his needs and meet his expected time of delivery. Deployed to
+              heroku.
             </CardText>
             <CardActions border>
               <Button style={{ color: '#FF00DD' }} colored>
@@ -370,9 +413,9 @@ class Projects extends Component {
               className='card-photo-nine'
             ></CardTitle>
             <CardText>
-              Freelance Marketing Portfolio site built for a client. Mobile
-              first approach, pure HTML, CSS, and Javascript. No frameworks.
-              Deployed to Netlify
+              Freelance Marketing Portfolio site built for a client looking to
+              have an advantage over her competition. Mobile first approach,
+              pure HTML, CSS, and Javascript. No frameworks. Deployed to Netlify
             </CardText>
             <CardActions border>
               <Button style={{ color: '#FF00DD' }} colored>
