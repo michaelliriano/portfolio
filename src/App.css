@@ -323,8 +323,7 @@ a .fas {
   display: flex;
   height: 200px;
   flex-wrap: wrap;
-  align-content: space-between;
-  padding-bottom: 50px;
+  justify-content: space-evenly;
 }
 .projects-grid > * {
   margin: 1em 0;
@@ -364,7 +363,7 @@ a .fas {
   width: 100%;
 }
 .card-photo-six {
-  background: url(./images/crystal.png);
+  background: url(./images/loseandlive.png);
   height: 200px;
   width: 100%;
 }

@@ -123,6 +123,49 @@ class Projects extends Component {
                 color: 'white',
                 height: '176px'
               }}
+              className='card-photo-six'
+            ></CardTitle>
+            <CardText>
+              Web application using Node.js backend, Express server, MongoDB
+              database. Basic REST API, OOP approach, MVC Layout, EJS Templates.
+              Users can create an account, track calories, set weight loss
+              goals, and blog their journey. Demo deployed to Heroku. CURRENTLY
+              IN PRODUCTION
+            </CardText>
+            <CardActions border>
+              <Button src='/' style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='https://loseandlive.herokuapp.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Site
+                </a>
+              </Button>
+              <Button style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='https://github.com/michaelliriano/loseandlive'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Code
+                </a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+          <Card
+            className='card-border'
+            shadow={5}
+            style={{ minWidth: '450', margin: 'auto' }}
+          >
+            <CardTitle
+              style={{
+                color: 'white',
+                height: '176px'
+              }}
               className='card-photo-three'
             ></CardTitle>
             <CardText>
@@ -156,47 +199,6 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           <br style={{ padding: '3em' }} />
-          <Card
-            className='card-border'
-            shadow={5}
-            style={{ minWidth: '450', margin: 'auto' }}
-          >
-            <CardTitle
-              style={{
-                color: 'white',
-                height: '176px'
-              }}
-              className='card-photo-six'
-            ></CardTitle>
-            <CardText>
-              Converted a Bootstrap theme to a full React application. Backend
-              with Backjone.js and React-Redux coming soon. Will use Firebase
-              for the database. Currently deployed on Heroku.
-            </CardText>
-            <CardActions border>
-              <Button src='/' style={{ color: '#FF00DD' }} colored>
-                <a
-                  href='http://crystalclearprod.herokuapp.com/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  View Site
-                </a>
-              </Button>
-              <Button style={{ color: '#FF00DD' }} colored>
-                <a
-                  href='https://github.com/michaelliriano/crystalclearproductions'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  View Code
-                </a>
-              </Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
         </section>
       );
 
