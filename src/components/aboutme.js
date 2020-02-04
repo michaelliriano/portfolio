@@ -11,9 +11,22 @@ class About extends Component {
           </h4>
           <br />
           <p>
-            I am a self taught full-stack web developer from Fort Lauderdale,
-            FL. I have been coding for over 3 years. I am passionate about all
-            aspects of technology. However, web development is my favorite.
+            I am a self taught Web Developer from Fort Lauderdale, Florida and I
+            have been programming for over 3 years. I am passionate about all
+            types of technology, however, my primary focus and inspiration is
+            Web Development. I am constantly experimenting with new technologies
+            and stacks and strive to better myself as a developer each and
+            everyday. In my free time, I enjoy playing guitar, piano, and
+            producing music on Pro Tools for myself and others.
+          </p>
+          <p>
+            let <i>skills</i> ={' '}
+            <span className='highlight'>
+              [ 'HTML', 'CSS', 'Bootstrap', 'Javascript(OOP,ES6)', 'React',
+              'NodeJS', 'Express', 'PHP', 'MongoDB', 'MySQL', 'Git', 'Webpack',
+              'Sass' ]
+            </span>{' '}
+            ;
           </p>
 
           <p>

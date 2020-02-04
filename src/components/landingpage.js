@@ -39,7 +39,7 @@ class Landing extends Component {
           <span>L</span>
         </h1>
         <h3 className='status'>
-          <span>Full-Stack Web Developer</span>
+          <span>Web Developer</span>
         </h3>
         <div className='social-icons'>
           <span>
