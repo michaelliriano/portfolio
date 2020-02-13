@@ -321,8 +321,9 @@ a .fas {
 
 .projects-grid {
   display: flex;
-  height: 200px;
-  flex-wrap: wrap;
+  order: 3;
+  width: 100%;
+  flex-flow: row wrap;
   justify-content: space-evenly;
 }
 .projects-grid > * {
@@ -384,6 +385,11 @@ a .fas {
 }
 .card-photo-ten {
   background: url(./images/bayshore.jpg);
+  height: 200px;
+  width: 100%;
+}
+.card-photo-eleven {
+  background: url(./images/lirianoteam.png);
   height: 200px;
   width: 100%;
 }

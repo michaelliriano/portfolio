@@ -23,8 +23,8 @@ class About extends Component {
             let <i>skills</i> ={' '}
             <span className='highlight'>
               [ 'HTML', 'CSS', 'Bootstrap', 'Javascript(OOP,ES6)', 'React',
-              'NodeJS', 'Express', 'PHP', 'MongoDB', 'MySQL', 'Git', 'Webpack',
-              'Sass' ]
+              'NodeJS', 'Express', 'Python', 'Django', 'PHP', 'MongoDB',
+              'PostgresQL' 'MySQL', 'Git', 'Github', 'Webpack', 'Sass' ]
             </span>{' '}
             ;
           </p>

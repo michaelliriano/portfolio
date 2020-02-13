@@ -273,7 +273,93 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 3) {
       return (
+        // Freelance
+
         <div className='projects-grid'>
+          <Card
+            className='card-border'
+            shadow={5}
+            style={{ minWidth: '450', margin: 'auto' }}
+          >
+            <CardTitle
+              style={{
+                color: 'white',
+                height: '176px'
+              }}
+              className='card-photo-eleven'
+            ></CardTitle>
+            <CardText>
+              Freelance website for a local Real Estate Team. Website is with
+              the Python Django Framework. Features an admin page, add listings,
+              add sold homes, lead tracker, and receieve inquires from guest.
+              Bootstap 4 UI
+            </CardText>
+            <CardActions border>
+              <Button style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='http://www.lirianoteam.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Site
+                </a>
+              </Button>
+              <Button style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='https://github.com/michaelliriano/tltrealestate'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Code
+                </a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+          <Card
+            className='card-border'
+            shadow={5}
+            style={{ minWidth: '450', margin: 'auto' }}
+          >
+            <CardTitle
+              style={{
+                color: 'white',
+                height: '176px'
+              }}
+              className='card-photo-eight'
+            ></CardTitle>
+            <CardText>
+              Website for Client's Real Estate Law business. Using React for the
+              frontend, and express server for backend. Client had personal
+              input on design scheme. Was able to work with client to satisfy
+              his needs and meet his expectations.
+            </CardText>
+            <CardActions border>
+              <Button style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='https://github.com/michaelliriano/lawofficeofeugenevigoa'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Code
+                </a>
+              </Button>
+              <Button style={{ color: '#FF00DD' }} colored>
+                <a
+                  href='http://vigoalaw.net'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  View Site
+                </a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
           <Card
             className='card-border'
             shadow={5}
@@ -331,10 +417,10 @@ class Projects extends Component {
               Freelance website for a local import/export produce company.
               Client was looking to upgrade from their wix site to something
               more professional and clean. Completely designed the UI and UX.
-              Built with HTML,CSS with animations, and javascript.
+              Currently in development.
             </CardText>
             <CardActions border>
-              <Button style={{ color: '#FF00DD' }} colored>
+              {/* <Button style={{ color: '#FF00DD' }} colored>
                 <a
                   href='https://www.bayshoreproduce.net'
                   target='_blank'
@@ -342,7 +428,7 @@ class Projects extends Component {
                 >
                   View Site
                 </a>
-              </Button>
+              </Button> */}
               <Button style={{ color: '#FF00DD' }} colored>
                 <a
                   href='https://github.com/michaelliriano/bayshoreproduce'
@@ -350,49 +436,6 @@ class Projects extends Component {
                   rel='noopener noreferrer'
                 >
                   View Code
-                </a>
-              </Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
-          <Card
-            className='card-border'
-            shadow={5}
-            style={{ minWidth: '450', margin: 'auto' }}
-          >
-            <CardTitle
-              style={{
-                color: 'white',
-                height: '176px'
-              }}
-              className='card-photo-eight'
-            ></CardTitle>
-            <CardText>
-              Website for Client's Real Estate Law business. Using React for the
-              frontend, and express server for backend. Client had personal
-              input on design scheme. Was able to work with client to satisfy
-              his needs and meet his expected time of delivery. Deployed to
-              heroku.
-            </CardText>
-            <CardActions border>
-              <Button style={{ color: '#FF00DD' }} colored>
-                <a
-                  href='https://github.com/michaelliriano/lawofficeofeugenevigoa'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  View Code
-                </a>
-              </Button>
-              <Button style={{ color: '#FF00DD' }} colored>
-                <a
-                  href='http://vigoalaw.net'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  View Site
                 </a>
               </Button>
             </CardActions>
