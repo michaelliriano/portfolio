@@ -290,9 +290,9 @@ class Projects extends Component {
             ></CardTitle>
             <CardText>
               Freelance website for a local Real Estate Team. Website is with
-              the Python Django Framework. Features an admin page, add listings,
-              add sold homes, lead tracker, and receieve inquires from guest.
-              Bootstap 4 UI
+              built with the Python Django Framework. Features an admin page,
+              add listings, add sold homes, lead tracker, and receieve inquires
+              from guest. Bootstap 4 UI
             </CardText>
             <CardActions border>
               <Button style={{ color: '#FF00DD' }} colored>
